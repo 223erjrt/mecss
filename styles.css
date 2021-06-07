@@ -1,0 +1,29 @@
+/* Include custom fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+/* Override global body styles */
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0e1722;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Override link colors */
+a {
+	color: #69d8ee;
+	text-decoration: none;
+}
+
+/* Override specific UI element styles */
+.loading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	height: 100vh;
+  background-color: #fff
+}
